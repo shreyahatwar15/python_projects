@@ -22,7 +22,7 @@ introduction += f"\n Logged on: {current_date}"
 
 border = "*" * 80
 
-self_introduction = f"\n{border}\n{introduction}\n{border}"
+self_introduction = f"\n{border}\n {introduction}\n {border}"
 
 print(self_introduction)
 

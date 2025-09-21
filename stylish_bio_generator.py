@@ -22,18 +22,18 @@ style = input("Select 1, 2 or 3: ").strip()
 
 def generate_bio(style):
     if style == "1":
-        return f"\n{emoji} {name} | {profession} \n{passion}🤩 \n{website}📎"
+        return f"\n{emoji} {name} | {profession}\n {passion}🤩\n {website}📎"
     elif style == "2":
-        return f"\n{emoji} {name} \n{profession} \n{passion}🤩 \n{website}📎"
+        return f"\n{emoji} {name}\n {profession}\n {passion}🤩\n {website}📎"
     elif style == "3":
-        return f"\n{emoji * 4} {name} - \n{profession} clear\n{passion}🤩 \n{website}📎"
+        return f"\n{emoji * 4} {name} - {profession}\n {passion}🤩\n {website}📎"
     else:
         print("Select any of above")
         
 bio = generate_bio(style) 
 
 print("*" * 60)
-print(f"\n Your stylish bio: \n")   
+print(f"\nYour stylish bio: \n")   
 print(textwrap.dedent(bio))
 print("*" * 60)
 
