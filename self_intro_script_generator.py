@@ -20,7 +20,7 @@ introduction = (
 current_date = datetime.date.today().isoformat()
 introduction += f"\n Logged on: {current_date}"
 
-border = "*" * 100
+border = "*" * 80
 
 self_introduction = f"\n{border}\n{introduction}\n{border}"
 
