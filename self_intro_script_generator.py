@@ -1,6 +1,6 @@
 """
 
-Python script that interacts with the user and generates a personalized self- introduction. 
+A Python script that interacts with the user and generates a personalized self- introduction. 
 Add the current date at the end of the paragraph and wrap the printed message with a decorative border of stars(*)
 
 """
